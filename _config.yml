@@ -1,14 +1,22 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Phil's Awesome Blog
+header-img: img/home-bg.jpg
+email: laferriere.phil@gmail.com
+description: >
+    This blog's goal is to share to fellow programmers my experiences in contributing to
+    open-source software. The first project that I will undertake is the popular node.js.  
+baseurl: "http://plafer.github.io"
+github_username:  plafer
+linkedin_username: profile/view?id=301451294&trk=nav_responsive_tab_profile
+include_rssfeed: false
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
+permalink: pretty
+#paginate_path: "/patate/page:num/"
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# Running locally
+# Command: jekyll serve --watch --baseurl ""
