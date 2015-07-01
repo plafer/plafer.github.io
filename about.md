@@ -31,8 +31,7 @@ for me; a popular and rapidly growing technology written in C/C++ and JavaScript
 by the way, I'm also very excited for JavaScript. Not only it is the language
 of the web (even though it will probably change in the not-so-future with 
 [WebAssembly](http://arstechnica.com/information-technology/2015/06/the-web-is-getting-its-bytecode-webassembly/)),
-I am aware that functional programming is very powerful 
-(think of Richard Stallman's [GNU Emacs](https://www.gnu.org/software/emacs/)) and it can be very
+I am aware that functional programming is very powerful and that it can be very
 beneficial to be proficient in a functional programming language. JavaScript
 is an entry point for me in this paradigm.
 
