@@ -38,3 +38,7 @@ is an entry point for me in this paradigm.
 Other than the current project I am working on, node.js, my dream would be to become
 a linux kernel hacker. The way I see it, if you can hack the kernel, you can do pretty
 much anything you want. That's where I'm heading.
+
+## Contact me
+You can either e-mail me at laferriere.phil@gmail.com or 
+[message me on LinkedIn](https://www.linkedin.com/profile/view?id=301451294).
