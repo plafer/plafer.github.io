@@ -6,7 +6,9 @@ date:       2015-07-08 17:45:00
 author:     "Philippe Laferriere"
 header-img: "img/post-bg-01.jpg"
 ---
-
+<!--
+- Refactor "understand what nodejs was before jumping in source code"
+-->
 Joining an open-source project is not easy, especially if it's your first time.
 The codebase is more often than not modularized in over 50 files, each 
 containing up to a few thousand lines of code. Getting up to speed requires 
@@ -23,8 +25,8 @@ I started with getting up to speed with node.js at a high level. I read some
 [blogs](http://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js) 
 about it, [stackoverflow answers](http://stackoverflow.com/a/14797359/3499862) and
 watched Ryan Dahl talk about the [history of the project](https://www.youtube.com/watch?v=SAc0vQCC6UQ).
-My goal was to know what node.js was *before* even thinking about getting
-into studying the source code. This may sound blatantly obvious, but
+I wanted to know what node.js was *before* even thinking about getting
+into studying the source code. This may sound blatantly obvious, but before this,
 I used to mistakenly think the more code I could possibly gulp, the better.
 This used to make understanding the code a lot harder
 for at least two reasons. In the first place, you don't get valuable information out of
@@ -32,16 +34,18 @@ variable names which often refer to a term of an underlying concept. Normally,
 you would be able to predict where and how the variable is going to be used; but you don't.
 Additionally, you can't be critical about what you're reading; how can you 
 challenge the author on a code segment if you don't understand what they're trying to do?
-Also, you won't get those *Right, here we need to change the state of the stream from paused to flowing since
-a new data listener was added...* moments. 
+Also, you won't get those *Right, here we need to change the state of the stream 
+from paused to flowing since a new data listener was added...* moments. 
 
 Once I was familiar with the general concepts, I learned C++ along with the two
 main libraries used in node.js, [libuv](http://docs.libuv.org/en/v1.x/) and
 [Google's V8](https://developers.google.com/v8/intro). This allowed
 me to start figuring out how the C++ part of the project works. My strategy was
-a two-part one. First, start from the *main* method and work my way through the code
+to first start from the *main* method and work my way through the code
 until I feel comfortable enough to go ahead and pick an [issue](https://github.com/joyent/node/issues)
-to work on. Then... pick an issue and start working on it.
+<small class="sidenote">GitHub issues track all the tasks to be completed, from bug 
+identitification to feature request</small>to work on. Then... pick an issue and start working on it.
+
 
 However, once I got to the second part, I realised *pretty much every issue was in the 
 JavaScript part*. So I went on and followed a 
@@ -58,8 +62,8 @@ how the socket interacted with the stream, and a bit of how http worked with
 the socket. Turns out I didn't even find the answer in the code - I realised
 the behavior in question was documented; I dropped a comment on the issue's thread 
 and it got closed. Even though I didn't need to write any code, it didn't
-feel like a waste of time at all because *it made me understand how streams work
-very well*, let alone bits and pieces of the net and http modules.
+feel like a waste of time at all because *it made me understand very well how
+streams work*, let alone bits and pieces of the net and http modules.
 
 The [next issue I chose to work on](https://github.com/joyent/node/issues/7273)
 was related to *(drum roll...)* the stream module. The documentation of the *read()*
@@ -89,7 +93,7 @@ you normally study them in your free time.
 ## A final note
 I'd like to take a moment and stress just how much fun I'm having doing all this!
 I am finally quenching my thirst for going down to a lower level of abstraction 
-of what I am used to. Eric Lippert 
+than what I am used to. Eric Lippert 
 [presents the same idea](http://ericlippert.com/2015/06/04/its-not-magic/) using an anecdote.
 He tells about a candidate he once interviewed; he was asking the interviewee about how he
 would go about writing code in a database implementation that auto-generates the

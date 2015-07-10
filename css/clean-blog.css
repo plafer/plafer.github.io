@@ -18,6 +18,14 @@
 {
   cursor: pointer;
 }
+
+.sidenote {
+  margin-right: -170px;
+  position: absolute;
+  right: 0;
+  top: auto; /* default */
+  width: 150px;
+}
  
  /*
   * Template stuff
