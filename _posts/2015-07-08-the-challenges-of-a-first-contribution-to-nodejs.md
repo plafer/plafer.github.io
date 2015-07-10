@@ -25,13 +25,13 @@ I started with getting up to speed with node.js at a high level. I read some
 [blogs](http://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js) 
 about it, [stackoverflow answers](http://stackoverflow.com/a/14797359/3499862) and
 watched Ryan Dahl talk about the [history of the project](https://www.youtube.com/watch?v=SAc0vQCC6UQ).
-I wanted to know what node.js was *before* even thinking about getting
+I wanted to know how node.js worked superficially *before* even thinking about getting
 into studying the source code. This may sound blatantly obvious, but before this,
-I used to mistakenly think the more code I could possibly gulp, the better.
-This used to make understanding the code a lot harder
+I used to mistakenly think that the faster I would start to gulp large amount 
+of code, the better. This used to make understanding the code a lot harder
 for at least two reasons. In the first place, you don't get valuable information out of
 variable names which often refer to a term of an underlying concept. Normally,
-you would be able to predict where and how the variable is going to be used; but you don't.
+you would be able to predict where and how the variable is going to be used; but you are not.
 Additionally, you can't be critical about what you're reading; how can you 
 challenge the author on a code segment if you don't understand what they're trying to do?
 Also, you won't get those *Right, here we need to change the state of the stream 
