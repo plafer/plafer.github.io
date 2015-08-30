@@ -4,11 +4,9 @@ title:      "The challenges of a first contribution to node.js"
 subtitle:   "Getting involved in a new open-source project is not without challenges. I share my experience in the matter."
 date:       2015-07-08 17:45:00
 author:     "Philippe Laferriere"
-header-img: "img/post-bg-01.jpg"
+header-img: "img/post-nodejs.jpg"
 ---
-<!--
-- Refactor "understand what nodejs was before jumping in source code"
--->
+
 Joining an open-source project is not easy, especially if it's your first time.
 The codebase is more often than not modularized in over 50 files, each 
 containing up to a few thousand lines of code. Getting up to speed requires 
