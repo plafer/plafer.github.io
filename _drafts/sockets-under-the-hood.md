@@ -4,7 +4,7 @@ title:      "Node.js: Sockets under the hood"
 subtitle:   "An overview of how sockets are implemented in node.js"
 date:       2015-08-05 17:45:00
 author:     "Philippe Laferriere"
-header-img: "img/post-sample-image.jpg"
+header-img: "img/post-nodejs.jpg"
 ---
 
 Idea: Describe how sockets work under the hood using duplex stream
