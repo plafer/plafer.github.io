@@ -15,9 +15,9 @@ Node.js offers many options to postpone code execution until *later*. Two of the
 *soon*... Pretty unclear, *heh*? Let's get right to it.
 
 ## SetImmediate
-Anyone who is at least minimally familiar with node.js has heard of the event loop,
+Anyone who is the least bit familiar with node.js has heard of the event loop, a
 [magical place filled with unicorns and rainbows](https://nodesource.com/blog/understanding-the-nodejs-event-loop).
-Even though it can seem daunting at first, it is a quite simple concept. 
+Even though it can seem daunting at first, it is quite a simple concept. 
 
 ![The event loop](/img/event-loop.png "The Event Loop")
 
@@ -32,7 +32,7 @@ Now, let's look at how `setImmediate` works. Consider the following snippet.
 	  console.log('Print this immediately!');
     });
 
-Firstly, the `callback` function gets queued in an internal queue that keep tracks of all
+First of all, the `callback` function gets queued in an internal queue that keep tracks of all
 immediate callbacks that need to be executed. Next, a *check* handle
 is registered on the event loop; its associated callback is a simple function that runs 
 all the `callback` functions queued in the above-mentioned queue. Therefore, whenever the loop
