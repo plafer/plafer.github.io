@@ -92,3 +92,7 @@ doesn't. Let's look at an example which uses both of them.
 Since `process.nextTick` callbacks execute before going back to the event loop,
 *they run before `setImmediate` callbacks*. And when `setImmediate` callbacks get
 fired from the event loop using `MakeCallback`, *they end a tick*!
+
+
+<!-- Facebook like & share-->
+<div style="margin-top:30px;" class="fb-like" data-href="http://plafer.github.io/2015/09/08/nextTick-vs-setImmediate/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
