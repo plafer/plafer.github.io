@@ -108,6 +108,10 @@ primary key on a table.
 I am aware that for system programmers, node.js is not *that low* down the levels of
 abstraction; but hey, *you gotta start somewhere*!
 
+## *Update*
+I eventually got to submit a [patch](https://github.com/nodejs/node/pull/2616),
+which has been code reviewed and seems to be in a bucket of possible future merge to a future version!
+
 
 <!-- Facebook like & share-->
 <div style="margin-top:30px;" class="fb-like" data-href="http://plafer.github.io/2015/07/08/the-challenges-of-a-first-contribution-to-nodejs/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
