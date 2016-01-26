@@ -7,35 +7,16 @@ author:     "Philippe Laferriere"
 header-img: "img/post-c.jpg"
 ---
 
-For most of my life, I've used computers for basic everyday things:
-write papers for school, browse the internet, play games,
-etc. Although I was very comfortable with the user interface provided
-by Windows and its various applications like most kids born in the
-'90s, I didn't have a clue of what was going on under the hood. When I
-got to choose a university program two years ago, I decided to enroll
-in software engineering by pure fascination of how computers work and
-how to manipulate them with what they called programming languages.
+As an undergraduate in a computer science program, I was taught Java
+as a first programming language. There's been some discussion as to if
+this is a good or bad thing. However, whether Java should or shouldn't
+be taught as a first programming language, or whether universities
+should or shouldn't include C in their curriculum is not the purpose
+of this article. Instead, it will focus on the benefits of learning C
+complementary to the concepts acquired from learning Java.
 
-Why am I rambling about all of this, you ask? Bear with me, we'll get
-there.
-
-Like most other computer science undergrad in North America, I was
-taught Java as a first programming language. There's been some
-discussion as to if this is a good or bad thing. However, whether Java
-should or shouldn't be taught as a first programming language, or
-whether universities should or shouldn't include C in their curriculum
-is not the purpose of this article. Instead, it will focus on the
-benefits of learning C complementary to the concepts acquired from
-learning Java.
-
-As I got comfortable with Java, I realized that it was too abstract of
-a language to use as a tool to learn how computers work under the
-hood. I wanted to play with *bytes*. So I went on to learn C, and
-*wow*, this has been my greatest computer revelation up to this point,
-followed by my operating systems course.
-
-Still reading? Good. But before we continue, I'll introduce some
-related discussion that is taking place here and there on the internet.
+Before we get there, I'll introduce some related discussion that is
+taking place here and there on the internet.
 
 # Discussion
 
@@ -94,11 +75,10 @@ I promised I wouldn't get in the middle of this debate, so I'll stop there.
 
 # What C taught me that Java didn't
 
-At the beginning of this article, I mentioned how much of a
-non-programmer I was before starting university. I had preconceived
-notions about programming that limited my ability to grasp computer
-science at a low-level. Java did not help me deepen my understanding,
-but C did.
+Before starting university, I knew absolutely nothing about
+programming. *Zip*. In fact, I had preconceived notions about
+programming that limited my ability to grasp computer science at a
+low-level. Java did not help me deepen my understanding, but C did.
 
 ## What are strings, really?
 
