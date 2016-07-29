@@ -12,7 +12,7 @@ include_rssfeed: false
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
 #paginate_path: "/patate/page:num/"
 gems: [jekyll-paginate]
