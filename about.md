@@ -41,4 +41,4 @@ much anything you want. That's where I'm heading.
 
 ## Contact me
 You can either e-mail me at laferriere.phil@gmail.com or 
-[message me on LinkedIn](https://www.linkedin.com/profile/view?id=301451294).
+[message me on LinkedIn](http://www.linkedin.com/in/philippe-laferrière-b92b5684).
