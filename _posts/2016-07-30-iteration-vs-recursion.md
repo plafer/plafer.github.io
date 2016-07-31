@@ -311,21 +311,38 @@ x 2 communication options).
 Now that we clearly see the big picture, we are poised to choose the
 best algorithm framework based on our constraints, preferences, etc.
 
-<hr>
-<a id="1" href="#1b"><sup>1</sup></a> Image taken in [Structure and
-Interpretation of Computer Programs](https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.1).
+<br/>
+<hr> <div style="font-size:14px;">
 
-<a id="2" href="#2b"><sup>2</sup></a> Image taken in [Structure and
-Interpretation of Computer Programs](https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.1).
+<a id="1" href="#1b" style="cursor:pointer;"><sup>1</sup></a> Image
+taken in <a style="cursor:pointer; text-decoration:underline;"
+href="https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.1">Structure
+and Interpretation of Computer Programs</a>.
 
-<a id="3" href="#3b"><sup>3</sup></a> Remember that for a procedure to
-be tail recursive, its return value must solely be a call back to
-itself (except for the base case, of course); it *cannot* be an
-expression which comprises a call to itself.
+<br/><br/>
 
-<a id="4" href="#4b"><sup>4</sup></a> Declarative knowledge involves
-knowing THAT something is the case while procedural knowledge involves
-knowing HOW to do something. [Learn
-more](http://unt.unice.fr/uoh/learn_teach_FL/affiche_theorie.php?id_concept=90&lang=eng&id_theorie=1&id_categorie=3).
+<a id="2" href="#2b" style="cursor:pointer;"><sup>2</sup></a> Image
+taken in <a style="cursor:pointer; text-decoration:underline;"
+href="https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.1">Structure
+and Interpretation of Computer Programs</a>.
 
-<a id="5" href="#5b"><sup>5</sup></a> This is an arbitrary number.
+<br/><br/>
+
+<a id="3" href="#3b" style="cursor:pointer;"><sup>3</sup></a> Remember
+that for a procedure to be tail recursive, its return value must
+solely be a call back to itself (except for the base case, of course);
+it <i>cannot</i> be an expression which comprises a call to itself.
+
+<br/><br/>
+
+<a id="4" href="#4b" style="cursor:pointer;"><sup>4</sup></a>
+Declarative knowledge involves knowing THAT something is the case
+while procedural knowledge involves knowing HOW to do something. <a
+style="text-decoration: underline; cursor:pointer;"
+href="http://unt.unice.fr/uoh/learn_teach_FL/affiche_theorie.php?id_concept=90&lang=eng&id_theorie=1&id_categorie=3">Learn
+more</a>.
+
+<br/><br/>
+
+<a id="5" href="#5b" style="cursor:pointer;"><sup>5</sup></a> This is
+an arbitrary number.  </div>
