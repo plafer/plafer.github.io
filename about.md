@@ -11,18 +11,19 @@ reading my first textbook about programming, I have not been able to
 quench my thirst for more.
 
 During my first year in university, I studied mostly Java and Android,
-introduced myself to Linux, and had an internship. In the second year,
-I did a lot of web programming (mostly HTML/CSS/JavaScript with a PHP
-backend). My most significant achievement up to that point was to
-contribute to the Node.js project, where I fixed a bug in the stream
-module (see the
+introduced myself to Linux, and had an internship with Radialpoint. In
+the second year, I did a lot of web programming (mostly
+HTML/CSS/JavaScript with a PHP backend) which got me my second
+internship at GSoft. On a personal level, my most significant
+achievement at the time was to contribute to the Node.js project,
+where I fixed a bug in the stream module (see the
 [thread](https://github.com/nodejs/node/pull/2616)). Even though the
 pull request was code reviewed, it never actually got merged in the
 project. Regardless, I learned a lot about how open-source projects
 work and thoroughly enjoyed the experience.
 
 In January 2016, I landed an internship at Microsoft, where I worked
-on a project involving Muzik company's new [smart
+on a project involving [Muzik's new smart
 heaphones](https://www.muzikconnect.com/). These headphones have an
 integrated accelerometer, four programmable buttons and swipe
 gestures. They can communicate with a device using Bluetooth. The task
@@ -43,11 +44,10 @@ a compiler for Scheme in Scheme. It is a startling experience.
 
 I am currently reading [The Linux Programming
 Interface](https://www.amazon.ca/Linux-Programming-Interface-System-Handbook/dp/1593272200),
-in which I am learning Linux along with its system calls and library
-functions in-depth. In parallel, I am studying the Linux
-implementation of [libuv](http://libuv.org/), the library which
-Node.js uses to manage its asynchronous I/O. Hopefully, I will be
-able to contribute soon!
+in which I am learning Linux and its system call interface
+in-depth. In parallel, I am studying the Linux implementation of
+[libuv](http://libuv.org/), the library which Node.js uses to manage
+asynchronous I/O. Hopefully, I will be able to contribute soon!
 
 ## Contact me
 
