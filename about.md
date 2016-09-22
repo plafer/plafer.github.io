@@ -47,7 +47,11 @@ Interface](https://www.amazon.ca/Linux-Programming-Interface-System-Handbook/dp/
 in which I am learning Linux and its system call interface
 in-depth. In parallel, I am studying the Linux implementation of
 [libuv](http://libuv.org/), the library which Node.js uses to manage
-asynchronous I/O. Hopefully, I will be able to contribute soon!
+asynchronous I/O. I also managed to
+[contribute](https://github.com/libuv/libuv/pull/1060): I exposed a
+private Windows-only function that translated system error codes into
+libuv error codes, implemented the UNIX version of it, updated the
+documentation and added a test!
 
 ## Contact me
 
