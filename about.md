@@ -16,8 +16,8 @@ the second year, I did a lot of web programming (mostly
 HTML/CSS/JavaScript with a PHP backend) which got me my second
 internship at GSoft. On a personal level, my most significant
 achievement at the time was to contribute to the Node.js project,
-where I fixed a bug in the stream module (see the
-[thread](https://github.com/nodejs/node/pull/2616)). Even though the
+where I [fixed a bug in the stream
+module](https://github.com/nodejs/node/pull/2616). Even though the
 pull request was code reviewed, it never actually got merged in the
 project. Regardless, I learned a lot about how open-source projects
 work and thoroughly enjoyed the experience.
