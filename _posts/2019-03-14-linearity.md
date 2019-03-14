@@ -24,12 +24,12 @@ series. The goal of this article is actually to push that series even further.
 ## Mathematics and Set theory crash course
 
 Before we actually start defining what a vector space is, it's useful to know a pattern used
-extensively in nearly mathematics. When you're a mathematician and you want to create a new
-mathematical object (such as the real numbers, complex numbers, vector spaces, etc.), you start
-by defining a set. This set will contain the different values that your mathematical object can
-take. The second step is to define *operations* (that we call *structure*) that will determine
-the available actions that you can take with respect to your mathematical object. For example,
-the set of real numbers defines two operations: addition and multiplication.
+extensively in nearly all of mathematics. When a mathematician wants to create a new
+mathematical object (such as the real numbers, complex numbers, vector spaces, etc.), she
+starts by defining a set. This set will contain the different values that the mathematical
+object can take. She then defines *operations* (that we call *structure*) that will
+determine the available actions that one can take with respect to the mathematical object. For
+example, the set of real numbers defines two operations: addition and multiplication.
 
 As you shall now see, this is exactly how vector spaces are built!
 
