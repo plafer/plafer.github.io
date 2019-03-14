@@ -2,7 +2,7 @@
 layout:     post
 title:      "Linearity"
 subtitle:   "From Vector Spaces to Matrices"
-date:       2019-01-03 11:45:00
+date:       2019-03-14 00:05:00
 author:     "Philippe Laferriere"
 header-img: "img/rec-vs-ite-bg.jpg"
 ---
