@@ -43,7 +43,7 @@ Wikipedia](https://en.wikipedia.org/wiki/Vector_space#Definition) and go from th
 
 Visually, this is what a vector space looks like:
 
-<image of set, field, and operations. Note that a dot/element in the set is a vector>
+<img src="{{ site.url }}/img/vector_space.jpg"/>
 
 You can refer back to this image as we dissect the definition.
 
@@ -119,11 +119,17 @@ one will mean "on the house's left-hand side".
 <initial image of vector space but showing a couple points with pi creatures, of different
 sizes and distances (+/-)>
 
+<img src="{{ site.url }}/img/vector_space_pi_creatures.jpg"/>
+
 Addition between two pi creatures will be defined as adding the sizes and distances together,
 respectively. Scalar multiplication will be defined as multiplying both the size and the
 distance by the given number.
 
-<image of 2-3 examples of + and *>
+#### Addition
+<img src="{{ site.url }}/img/vector_space_pi_addition.jpg"/>
+
+#### Scalar multiplication
+<img src="{{ site.url }}/img/vector_space_pi_creatures_multiplication.jpg"/>
 
 Verifying that this is indeed a vector space is left as an exercise. Now that we have a toy
 vector space to play with, let's move on.
@@ -230,8 +236,8 @@ linear. We rather say that it's *affine* because of the *+ b*. It turns out that
 crucial distinction to make. In linear algebra, lines pass through the origin. This comes as a
 result of the two axioms of linearity:
 
-L1. f(x + y) = f(x) + f(y)
-L2. f(c * x) = c * f(x)
+1. **L1:** f(x + y) = f(x) + f(y)
+2. **L2:** f(c * x) = c * f(x)
 
 Let's take a step back and think about why these two axioms capture what it means for something
 to be linear.
@@ -312,11 +318,11 @@ So how exactly does the matrix, a grid of numbers, do all of this? Let's start b
 what happens when we send the first basis vector of our basis as input to the matrix. We'll
 take a 2 dimensional vector for this example and will assume that the matrix is square.
 
-<image of send [1 0] through a 2D matrix>
+<img src="{{ site.url }}/img/mat_abcd_10.png"/>
 
 We get the first column of the matrix as output! And similarly for the second basis vector...
 
-<image of send [0 1] through a 2D matrix>
+<img src="{{ site.url }}/img/mat_abcd_01.png"/>
 
 We get the second column! And so in other words, *a matrix stores the coordinates of where the
 basis vectors get mapped by the linear transformation in its columns*.
@@ -329,3 +335,7 @@ the linear transformation, and the transformation is... linear! And therefore we
 the vectors get mapped: the matrix maps the basis vectors to the output vector space, and then
 (using L1 and L2) it takes the linear combination of those to figure out where a given vector
 lands!
+
+I now encourage you to go re-watch 3Blue1Brown's videos on [linear transformations and
+matrices](https://youtu.be/kYB8IZa5AuE), and on [change of
+basis](https://youtu.be/P2LTAUO1TdA). Hopefully, you will see them in a new light!
