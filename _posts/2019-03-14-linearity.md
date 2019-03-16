@@ -265,6 +265,7 @@ For completeness, let's also show mathematically that these two axioms hold for 
 a line *f(x) = m \* x*, though that doesn't provide much intuition.
 
 L1: f(x + y) = m * (x + y) = m * x + m * y = f(x) + f(y)
+
 L2: f(c * x) = m * c * x = c * m * x = c * f(x)
 
 ### Linearity for linear combinations
