@@ -61,7 +61,7 @@ b\underline{*}v \quad $$ for all $$ a,b \in F $$ and $$ v \in V $$
 
 #### Step 1
 
-We look at the first addition operator between the parentheses. It sums $$a$$
+We look at the first addition symbol between the parentheses. It sums $$a$$
 and $$b$$, which are declared to be field elements. This $$+$$ is thus a field
 addition operator.
 
@@ -70,7 +70,7 @@ b\underline{*}v \quad $$ for all $$ a,b \in F $$ and $$ v \in V $$
 
 #### Step 2
 
-We can now evaluate the first multiplication operator. It multiplies a field
+We can now evaluate the first multiplication symbol. It multiplies a field
 element $$a+b$$ and a vector $$v$$. It is thus a vector space scalar
 multiplication operator.
 
@@ -97,7 +97,7 @@ $$ a,b \in F $$ and $$ v \in V $$
 
 #### Step 5
 
-Finally, we look at the addition operator. It sums two vectors, and thus
+Finally, we look at the last addition symbol. It sums two vectors, and thus
 is a vector addition operator.
 
 $$ (a + b) \bigodot v = a \bigodot v \bigoplus b \bigodot v \quad $$ for all
