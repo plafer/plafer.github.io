@@ -104,7 +104,7 @@ $$ (a + b) \bigodot v = a \bigodot v \bigoplus b \bigodot v \quad $$ for all
 $$ a,b \in F $$ and $$ v \in V $$
 
 And we're done. Isn't this a lot less ambiguous now? Note that the original
-expression has two $$+$$ symbols, but each refer to a different operator!
+expression had two $$+$$ symbols, each referring to a different operator!
 Written this way, it is obvious that the expression demands that the vector
 resulting from multiplying the number $$n=a+b$$ with the vector $$v$$ be equal
 to the sum of the vectors $$w_1 = a \bigodot v$$ and $$w_2 = b \bigodot v$$. Of
