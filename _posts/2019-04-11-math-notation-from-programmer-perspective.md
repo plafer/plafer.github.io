@@ -25,7 +25,7 @@ $$+$$ and $$*$$ for it. Yet, the addition and multiplication operations for a
 field and for a vector space are very different! The type of the scalar
 multiplication operation of a vector space ($$*: F \times V \rightarrow V$$) is
 not even the same as the type for the multiplication operation of a field ($$*:
-F \times F \rightarrow F$$). In a nutshell, all that this type declarations
+F \times F \rightarrow F$$). In a nutshell, all that this type declaration
 notation says is that the scalar multiplication operation for a vector space
 multiplies a "number" (element of a field) with a vector to produce a vector,
 while the multiplication operation for a field multiplies two numbers to produce
