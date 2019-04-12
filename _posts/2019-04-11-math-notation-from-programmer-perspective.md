@@ -135,6 +135,6 @@ symbols for analogous operators (such as `+` and `+.`). Yet, there isn't even
 consensus as to whether operator overloading is a good thing or a bad thing in
 the programming language community. Some languages such as C++ allow operator
 overloading on user-defined types, which are by definition not known at
-language-design time. These languages are bound to run into the same problem as
+language-design time. These languages are bound to run into the same problems as
 math. All in all, for math and programming languages alike, if you want the
 generality, you lose the clarity.
