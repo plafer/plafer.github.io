@@ -15,7 +15,7 @@ mathematical expression.
 Take for example the *distributivity of scalar multiplication with respect to
 field addition* axiom for vector spaces (read my [article on linearity]({%
 post_url 2019-03-14-linearity %}) for a full introduction to vector spaces). In
-the following expression, let $$V$$ be a vector field over a field $$F$$.
+the following expression, let $$V$$ be a vector space over a field $$F$$.
 
 $$ (a + b) * v = a*v + b*v \quad $$ for all $$ a,b \in F $$ and $$ v \in V $$
 
