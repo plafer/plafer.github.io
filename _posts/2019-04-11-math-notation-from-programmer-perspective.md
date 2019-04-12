@@ -8,7 +8,7 @@ header-img: "img/rec-vs-ite-bg.jpg"
 ---
 
 For the past six years, I've been studying computer science and writing various
-kinds of software: from compilers and interpreters to a fully functional
+kinds of software, from compilers and interpreters to a fully functional
 operating system to self-driving car software. I have recently transitioned into
 the study of rigorous mathematics, and found that mathematical notation is
 confusing for one simple reason: [operator
